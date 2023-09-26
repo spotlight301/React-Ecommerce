@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/47122eae27.js" crossorigin="anonymous"></script>
+    <title>fItZy</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="superNav border-b py-2 bg-gray-100">
+        <div class="container lg:w-10/12  mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-2 items-center ">
+                <div class="text-center sm:text-left space-x-3">
+                    <select class="border-0 bg-gray-100">
+                        <option value="en-us">EN-US</option>
+                    </select>
+                    <span class="hidden lg:inline-block md:inline-block sm:inline-block"><strong>info@fItZy.com</strong></span>
+                    <span><i class="fa-solid fa-phone me-1 text-info"></i><strong>1-800-123-1234</strong></span>
+                </div>
+                <div class="text-right hidden lg:block space-x-3">
+                    <span><i class="fa-solid fa-money-bill-transfer mr-1"></i><a class="text-gray-500" href="#">Premium</a></span>
+                    <span><i class="fa-solid fa-file text-gray-500 mr-1"></i><a class="text-gray-500" href="#">Policy</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bg-white py-3 shadow-lg">
+        <div class="container w-10/12 mx-auto flex flex-wrap items-center justify-between">
+            <div class="space-x-4">
+                <a href="#" class="space-x-1 text-2xl font-bold leading-tight"><i class="fa-solid fa-shop me-2"></i>
+                    <strong>fItZy</strong></a>
+            </div>
+            <div class="flex md:hidden">
+                <button id="resp">
+                  <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
+                  <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
+                </button>
+              </div>
+              <div class="toggle hidden md:flex w-full md:w-auto container mx-auto w-10 md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none"> 
+                <div class="relative text-gray-600 block md:inline-block">
+                    <input type="search" name="serch" placeholder="Search" class="border w-80 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none">
+                    <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
+                      <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="512px" height="512px">
+                        <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z"/>
+                      </svg>
+                    </button>
+                  </div>
+        </div>
+
+
+        <div class="toggle hidden  md:w-auto md:flex text-left text-bold mt-5 md:mt-0">        
+            <a href="#" class="block md:inline-block link-underline  py-1 mr-6 shadow-sm font-display max-w-sm text-xl  leading-tight">
+                <span class="text-black"> 
+                     About</span>
+            </a>
+            <a href="#" class="block md:inline-block link-underline  py-1 mr-6 shadow-sm font-display max-w-sm text-xl  leading-tight">
+                <span class="text-black"> 
+                   Contact</span>
+            </a>
+            <a href="#" class="block md:inline-block link-underline  py-1 shadow-sm font-display max-w-sm text-xl leading-tight">
+                <span class="text-black"> 
+                    <i class="fa-solid fa-cart-shopping"></i> cart</span>
+            </a>
+            
+          </div>
+        
+        </nav>
+
+          <script src="main.js"></script>
+    
+</body>
+</html>
+
