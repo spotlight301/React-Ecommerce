@@ -1,0 +1,9 @@
+.bg-red{
+  display: flex;
+  justify-content: space-around;
+}
+.mony{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: aqua;
+}
