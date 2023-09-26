@@ -5,7 +5,8 @@
     "brand": "Apple",
     "price": 1099,
     "description": "Apple's largest iPhone with a Pro camera system for next-level low-light photography.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://unsplash.com/photos/two-iphones-side-by-side-on-a-white-surface-Rm1sYMLXsp4"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "brand": "Samsung",
     "price": 1199.99,
     "description": "Samsung's flagship smartphone with an intelligent battery and massive storage.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://unsplash.com/photos/BI5JpNK5sE0"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "brand": "Google",
     "price": 899,
     "description": "Google's newest smartphone with the most advanced smartphone camera.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://www.pexels.com/photo/iphone-at-10-05-screenshot-803936/"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "brand": "OnePlus",
     "price": 1069,
     "description": "OnePlus's flagship smartphone with Hasselblad camera for mobile.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://www.pexels.com/photo/black-smartphone-on-black-table-top-63690/"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "brand": "Xiaomi",
     "price": 1199,
     "description": "Xiaomi's premium smartphone with a professional-grade camera system.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://unsplash.com/photos/PE97QBw-LHc"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "brand": "Apple",
     "price": "2499",
     "description": "Apple's most powerful notebook, featuring a new keyboard and up to 64GB of memory.",
-    "category": "Laptops"
+    "category": "Laptops",
+    "image_URL":"https://unsplash.com/photos/mP7aPSUm7aE"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "brand": "Dell",
     "price": "999.99",
     "description": "Dell's smallest 13-inch laptop with captivating Dell Cinema and next-gen InfinityEdge.",
-    "category": "Laptops"
+    "category": "Laptops",
+    "image_URL":"https://www.pexels.com/photo/photo-of-a-gray-dell-laptop-displaying-pexels-webpage-811587/"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "brand": "Lenovo",
     "price": "1329",
     "description": "Lenovo's ultralight laptop with a long battery life and robust security features.",
-    "category": "Laptops"
+    "category": "Laptops",
+    "image_URL":"https://www.pexels.com/photo/black-and-silver-laptop-computer-3550482/"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "brand": "ASUS",
     "price": "1449",
     "description": "ASUS's powerful gaming laptop with AMD Ryzen™ 9 CPU and GeForce RTX™ 3060 GPU.",
-    "category": "Laptops"
+    "category": "Laptops",
+    "image_URL":"https://unsplash.com/photos/KcF7fUhKFeg"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "brand": "'HP'",
     "price": "'1049.99'",
     "description": "'HP's' sleek and powerful convertible laptop with long battery life.",
-    "category": "Laptops"
+    "category": "Laptops",
+    "image_URL":"https://unsplash.com/photos/j4uuKnN43_M"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "brand": "'Gucci'",
     "price": "'480'",
     "description": "'Gucci's' soft cotton t-shirt with the classic Gucci logo.",
-    "category": "'Clothes'"
+    "category": "Clothes",
+    "image_URL":"https://www.pexels.com/photo/photo-of-a-smiling-brunette-man-listening-to-music-16963136/"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "brand": "'Dior'",
     "price": "'8300'",
     "description": "'Dior's' stylish bomber jacket from Dior's collaboration with Jordan Brand.",
-    "category": "'Clothes'"
+    "category": "Clothes",
+    "image_URL":"https://unsplash.com/photos/HOqAIkOfpkQ"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "brand": "'Louis Vuitton'",
     "price": "'1090'",
     "description": "'Louis Vuitton's' iconic futuristic sneaker.",
-    "category": "'Clothes'"
+    "category": "Clothes",
+    "image_URL":"https://unsplash.com/photos/JM-qKEd1GMI"
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "brand": "'Burberry'",
     "price": "'1990'",
     "description": "'Burberry's classic trench coat in English-woven cotton gabardine.",
-    "category": "'Clothes'"
+    "category": "Clothes",
+    "image_URL":"https://unsplash.com/photos/hp7Uj0EO__g"
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "brand": "'Levi's'",
     "price": "'64.50'",
     "description": "'Levi's iconic denim jacket that is a symbol of self-expression for everyone.",
-    "category": "'Clothes'"
+    "category": "Clothes",
+    "image_URL":"https://unsplash.com/photos/MzaGpQw5gok"
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "brand": "Samsung",
     "price": 1299.99,
     "description": "Samsung's premium smartphone with an advanced S Pen.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://unsplash.com/photos/5uJMG9fUAO0"
   },
   {
     "id": 17,
@@ -133,7 +149,9 @@
     "brand": "Google",
     "price": 349,
     "description": "Google's budget-friendly smartphone with a compact size.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://unsplash.com/photos/aiUAxBNe3Xk"
+
   },
   {
     "id": 18,
@@ -141,7 +159,8 @@
     "brand": "OnePlus",
     "price": 299,
     "description": "OnePlus's mid-range smartphone with 5G connectivity.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://www.pexels.com/photo/close-up-shot-of-a-black-smartphone-9403824/"
   },
   {
     "id": 19,
@@ -149,7 +168,8 @@
     "brand": "Apple",
     "price": 399,
     "description": "Apple's budget-friendly iPhone with a home button and Touch ID.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://unsplash.com/photos/izVNSj7VwRM"
   },
   {
     "id": 20,
@@ -157,7 +177,8 @@
     "brand": "Xiaomi",
     "price": "229",
     "description": "Xiaomi's budget-friendly smartphone with a high-resolution camera.",
-    "category": "Mobiles"
+    "category": "Mobiles",
+    "image_URL":"https://unsplash.com/photos/WR-uSJBqizQ"
   },
   {
     "id": 21,
@@ -165,7 +186,8 @@
     "brand": "HP",
     "price": "749.99",
     "description": "HP's versatile convertible laptop with a touchscreen.",
-    "category": "Laptops"
+    "category": "Laptops",
+    "image_URL":"https://www.pexels.com/photo/news-on-laptop-screen-17706646/"
   },
   {
     "id": 22,
@@ -173,7 +195,8 @@
     "brand": "ASUS",
     "price": "699.99",
     "description": "ASUS's lightweight laptop with a NanoEdge display.",
-    "category": "Laptops"
+    "category": "Laptops",
+    "image_URL":"https://unsplash.com/photos/g7boywXsC6M"
   },
   {
     "id": 23,
@@ -181,7 +204,8 @@
     "brand": "Dell",
     "price": "1749.99",
     "description": "Dell's high-performance laptop with a stunning display.",
-    "category": "Laptops"
+    "category": "Laptops",
+    "image_URL":"https://unsplash.com/photos/B_88OOFHTj8"
   },
   {
     "id": 24,
@@ -189,7 +213,8 @@
     "brand": "Lenovo",
     "price": "1049.99",
     "description": "Lenovo's premium 2-in-1 laptop with a rotating sound bar.",
-    "category": "Laptops"
+    "category": "Laptops",
+    "image_URL":"https://www.pexels.com/photo/laptop-on-marble-countertop-11587604/"
   },
   {
     "id": 25,
@@ -197,7 +222,8 @@
     "brand": "'Acer'",
     "price": "'649.99'",
     "description": "'Acer's' thin and light laptop with long battery life.",
-    "category": "'Laptops'"
+    "category": "Laptops",
+    "image_URL":"https://unsplash.com/photos/rndjGfyInvs"
   },
   {
     "id": 26,
@@ -205,38 +231,43 @@
     "brand": "'Levi's'",
     "price": "'64.50'",
     "description": "'Levi's iconic denim jacket that is a symbol of self-expression for everyone.",
-    "category": "'Clothes'"
+    "category": "Clothes",
+    "image_URL":"https://unsplash.com/photos/RDKvulZ9bao"
   },
   {
     "id": 27,
-    "name": "'Adidas' Stan Smith Sneaker",
-    "brand": "'Adidas'",
+    "name": "Adidas Stan Smith Sneaker",
+    "brand": "Adidas",
     "price": "'80'",
-    "description": "'Adidas' classic Stan Smith sneaker that remains a must-have shoe.",
-    "category": "'Clothes'"
+    "description": "Adidas classic Stan Smith sneaker that remains a must-have shoe.",
+    "category": "Clothes",
+    "image_URL":"https://unsplash.com/photos/BeClz11lyXY"
   },
   {
     "id": 28,
-    "name": "'Zara' Poplin Shirt",
-    "brand": "'Zara'",
-    "price": "'35.90'",
-    "description": "'Zara's' versatile poplin shirt that is perfect for casual or formal wear.",
-    "category": "'Clothes'"
+    "name": "Zara' Poplin Shirt",
+    "brand": "Zara",
+    "price": "35.90",
+    "description": "Zara's versatile poplin shirt that is perfect for casual or formal wear.",
+    "category": "Clothes",
+    "image_URL":"https://unsplash.com/photos/D1W3rQGaNhI"
   },
   {
     "id": 29,
-    "name": "'Uniqlo' Women's U Crew Neck Short-Sleeve T-Shirt ",
-    "brand": "'Uniqlo'",
-    "price": "'14.90'",
-    "description": "'Uniqlo's' comfortable and durable crew neck t-shirt.",
-    "category": "'Clothes'"
+    "name": "Uniqlo U Crew Neck Short-Sleeve T-Shirt ",
+    "brand": "Uniqlo",
+    "price": "14.90",
+    "description": "Uniqlo's comfortable and durable crew neck t-shirt.",
+    "category": "Clothes",
+    "image_URL":"https://unsplash.com/photos/WWesmHEgXDs"
   },
   {
     "id": 30,
-    "name": "'H&M' Jersey Dress",
-    "brand": "'H&M'",
-    "price": "'17.99'",
-    "description": "'H&M's' comfortable and stylish jersey dress.",
-    "category": "'Clothes'"
+    "name": "H&M' Jersey Dress",
+    "brand": "H&M",
+    "price": "17.99",
+    "description": "H&M's comfortable and stylish jersey dress.",
+    "category": "Clothes",
+    "image_URL":"https://unsplash.com/photos/cp-VMJ-mdKs"
   }
 ]
