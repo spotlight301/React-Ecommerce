@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 13 Pro Max",
+    "brand": "Apple",
+    "price": 1099,
+    "description": "Apple's largest iPhone with a Pro camera system for next-level low-light photography.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S21 Ultra 5G",
+    "brand": "Samsung",
+    "price": 1199.99,
+    "description": "Samsung's flagship smartphone with an intelligent battery and massive storage.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 3,
+    "name": "Pixel 6 Pro",
+    "brand": "Google",
+    "price": 899,
+    "description": "Google's newest smartphone with the most advanced smartphone camera.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 9 Pro",
+    "brand": "OnePlus",
+    "price": 1069,
+    "description": "OnePlus's flagship smartphone with Hasselblad camera for mobile.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi Mi 11 Ultra",
+    "brand": "Xiaomi",
+    "price": 1199,
+    "description": "Xiaomi's premium smartphone with a professional-grade camera system.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 6,
+    "name": "MacBook Pro (16-inch, 2021)",
+    "brand": "Apple",
+    "price": "2499",
+    "description": "Apple's most powerful notebook, featuring a new keyboard and up to 64GB of memory.",
+    "category": "Laptops"
+  },
+  {
+    "id": 7,
+    "name": "XPS 13",
+    "brand": "Dell",
+    "price": "999.99",
+    "description": "Dell's smallest 13-inch laptop with captivating Dell Cinema and next-gen InfinityEdge.",
+    "category": "Laptops"
+  },
+  {
+    "id": 8,
+    "name": "ThinkPad X1 Carbon Gen 9",
+    "brand": "Lenovo",
+    "price": "1329",
+    "description": "Lenovo's ultralight laptop with a long battery life and robust security features.",
+    "category": "Laptops"
+  },
+  {
+    "id": 9,
+    "name": "ASUS ROG Zephyrus G14",
+    "brand": "ASUS",
+    "price": "1449",
+    "description": "ASUS's powerful gaming laptop with AMD Ryzen™ 9 CPU and GeForce RTX™ 3060 GPU.",
+    "category": "Laptops"
+  },
+  {
+    "id": 10,
+    "name": "'HP' Spectre x360 Convertible Laptop",
+    "brand": "'HP'",
+    "price": "'1049.99'",
+    "description": "'HP's' sleek and powerful convertible laptop with long battery life.",
+    "category": "Laptops"
+  },
+  {
+    "id": 11,
+    "name": "'Gucci' Logo T-Shirt",
+    "brand": "'Gucci'",
+    "price": "'480'",
+    "description": "'Gucci's' soft cotton t-shirt with the classic Gucci logo.",
+    "category": "'Clothes'"
+  },
+  {
+    "id": 12,
+    "name": "'Air Dior' Bomber Jacket",
+    "brand": "'Dior'",
+    "price": "'8300'",
+    "description": "'Dior's' stylish bomber jacket from Dior's collaboration with Jordan Brand.",
+    "category": "'Clothes'"
+  },
+  {
+    "id": 13,
+    "name": "'LV Archlight Sneaker'",
+    "brand": "'Louis Vuitton'",
+    "price": "'1090'",
+    "description": "'Louis Vuitton's' iconic futuristic sneaker.",
+    "category": "'Clothes'"
+  },
+  {
+    "id": 14,
+    "name": "'Burberry Kensington Trench Coat'",
+    "brand": "'Burberry'",
+    "price": "'1990'",
+    "description": "'Burberry's classic trench coat in English-woven cotton gabardine.",
+    "category": "'Clothes'"
+  },
+  {
+    "id": 15,
+    "name": "'Levi's Women's Original Trucker Jacket'",
+    "brand": "'Levi's'",
+    "price": "'64.50'",
+    "description": "'Levi's iconic denim jacket that is a symbol of self-expression for everyone.",
+    "category": "'Clothes'"
+  },
+  {
+    "id": 16,
+    "name": "Samsung Galaxy Note20 Ultra",
+    "brand": "Samsung",
+    "price": 1299.99,
+    "description": "Samsung's premium smartphone with an advanced S Pen.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 17,
+    "name": "Google Pixel 4a",
+    "brand": "Google",
+    "price": 349,
+    "description": "Google's budget-friendly smartphone with a compact size.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 18,
+    "name": "OnePlus Nord CE 5G",
+    "brand": "OnePlus",
+    "price": 299,
+    "description": "OnePlus's mid-range smartphone with 5G connectivity.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 19,
+    "name": "Apple iPhone SE (2020)",
+    "brand": "Apple",
+    "price": 399,
+    "description": "Apple's budget-friendly iPhone with a home button and Touch ID.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 20,
+    "name": "Xiaomi Redmi Note 10S",
+    "brand": "Xiaomi",
+    "price": "229",
+    "description": "Xiaomi's budget-friendly smartphone with a high-resolution camera.",
+    "category": "Mobiles"
+  },
+  {
+    "id": 21,
+    "name": "HP Pavilion x360",
+    "brand": "HP",
+    "price": "749.99",
+    "description": "HP's versatile convertible laptop with a touchscreen.",
+    "category": "Laptops"
+  },
+  {
+    "id": 22,
+    "name": "ASUS VivoBook S15",
+    "brand": "ASUS",
+    "price": "699.99",
+    "description": "ASUS's lightweight laptop with a NanoEdge display.",
+    "category": "Laptops"
+  },
+  {
+    "id": 23,
+    "name": "Dell XPS 15",
+    "brand": "Dell",
+    "price": "1749.99",
+    "description": "Dell's high-performance laptop with a stunning display.",
+    "category": "Laptops"
+  },
+  {
+    "id": 24,
+    "name": "Lenovo Yoga C940",
+    "brand": "Lenovo",
+    "price": "1049.99",
+    "description": "Lenovo's premium 2-in-1 laptop with a rotating sound bar.",
+    "category": "Laptops"
+  },
+  {
+    "id": 25,
+    "name": "'Acer' Swift 3",
+    "brand": "'Acer'",
+    "price": "'649.99'",
+    "description": "'Acer's' thin and light laptop with long battery life.",
+    "category": "'Laptops'"
+  },
+  {
+    "id": 26,
+    "name": "'Levi's' Original Trucker Jacket",
+    "brand": "'Levi's'",
+    "price": "'64.50'",
+    "description": "'Levi's iconic denim jacket that is a symbol of self-expression for everyone.",
+    "category": "'Clothes'"
+  },
+  {
+    "id": 27,
+    "name": "'Adidas' Stan Smith Sneaker",
+    "brand": "'Adidas'",
+    "price": "'80'",
+    "description": "'Adidas' classic Stan Smith sneaker that remains a must-have shoe.",
+    "category": "'Clothes'"
+  },
+  {
+    "id": 28,
+    "name": "'Zara' Poplin Shirt",
+    "brand": "'Zara'",
+    "price": "'35.90'",
+    "description": "'Zara's' versatile poplin shirt that is perfect for casual or formal wear.",
+    "category": "'Clothes'"
+  },
+  {
+    "id": 29,
+    "name": "'Uniqlo' Women's U Crew Neck Short-Sleeve T-Shirt ",
+    "brand": "'Uniqlo'",
+    "price": "'14.90'",
+    "description": "'Uniqlo's' comfortable and durable crew neck t-shirt.",
+    "category": "'Clothes'"
+  },
+  {
+    "id": 30,
+    "name": "'H&M' Jersey Dress",
+    "brand": "'H&M'",
+    "price": "'17.99'",
+    "description": "'H&M's' comfortable and stylish jersey dress.",
+    "category": "'Clothes'"
+  }
+]
