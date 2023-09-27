@@ -1,0 +1,191 @@
+[
+  {
+    "id": 30,
+    "name": "Men's Slim Fit Dark Wash Jeans",
+    "brand": "FashionHub",
+    "price": 49.99,
+    "description": "Modern slim fit jeans in a dark wash for a sleek look.",
+    "category": "Jeans",
+    "image_URL": "https://example.com/jeans2.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Women's Ruffled Floral Maxi Dress",
+    "brand": "FloralGlam",
+    "price": 42.00,
+    "description": "Elegant maxi dress with floral patterns and ruffled details.",
+    "category": "Dresses",
+    "image_URL": "https://example.com/dress2.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Leather Cardholder Wallet",
+    "brand": "LeatherCraft",
+    "price": 15.99,
+    "description": "Compact leather cardholder wallet with a sleek design.",
+    "category": "Wallets",
+    "image_URL": "https://example.com/wallet3.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Men's Graphic Print T-Shirt",
+    "brand": "TrendyPrints",
+    "price": 18.00,
+    "description": "Casual t-shirt with a trendy graphic print design.",
+    "category": "T-Shirts",
+    "image_URL": "https://example.com/tshirt2.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Women's Classic Ballet Flats",
+    "brand": "BalletBeauty",
+    "price": 29.99,
+    "description": "Timeless ballet flats for a comfortable and chic look.",
+    "category": "Footwear",
+    "image_URL": "https://example.com/flats1.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Men's Straight Leg Black Jeans",
+    "brand": "UrbanStyle",
+    "price": 55.00,
+    "description": "Classic straight leg jeans in a versatile black color.",
+    "category": "Jeans",
+    "image_URL": "https://example.com/jeans3.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Women's Elegant Cocktail Dress",
+    "brand": "CocktailCouture",
+    "price": 69.99,
+    "description": "Stunning cocktail dress for a glamorous night out.",
+    "category": "Dresses",
+    "image_URL": "https://example.com/dress3.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Minimalist Slim Bifold Wallet",
+    "brand": "SleekEssentials",
+    "price": 22.50,
+    "description": "Minimalist bifold wallet with a slim profile for everyday use.",
+    "category": "Wallets",
+    "image_URL": "https://example.com/wallet4.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Men's V-Neck Cotton T-Shirt",
+    "brand": "CasualComfort",
+    "price": 14.99,
+    "description": "Soft and breathable V-neck cotton t-shirt for a relaxed fit.",
+    "category": "T-Shirts",
+    "image_URL": "https://example.com/tshirt3.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Women's High Heel Sandals",
+    "brand": "FashionHeels",
+    "price": 49.50,
+    "description": "Stylish high heel sandals for a fashionable statement.",
+    "category": "Footwear",
+    "image_URL": "https://example.com/sandals1.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Men's Distressed Skinny Jeans",
+    "brand": "StreetVibe",
+    "price": 39.99,
+    "description": "Trendy distressed skinny jeans for a modern urban look.",
+    "category": "Jeans",
+    "image_URL": "https://example.com/jeans4.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Women's Casual Shift Dress",
+    "brand": "CasualChic",
+    "price": 25.00,
+    "description": "Easy-breezy casual shift dress for everyday comfort.",
+    "category": "Dresses",
+    "image_URL": "https://example.com/dress4.jpg"
+  },
+  {
+    "id": 42,
+    "name": "RFID Blocking Leather Wallet",
+    "brand": "SecureHold",
+    "price": 29.99,
+    "description": "Secure RFID blocking leather wallet to protect your cards.",
+    "category": "Wallets",
+    "image_URL": "https://example.com/wallet5.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Men's Retro Logo Graphic T-Shirt",
+    "brand": "RetroStyle",
+    "price": 20.00,
+    "description": "Nostalgic retro logo graphic t-shirt for a vintage vibe.",
+    "category": "T-Shirts",
+    "image_URL": "https://example.com/tshirt4.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Women's Casual Canvas Sneakers",
+    "brand": "CanvasCasuals",
+    "price": 19.99,
+    "description": "Comfortable and casual canvas sneakers for a laid-back look.",
+    "category": "Footwear",
+    "image_URL": "https://example.com/sneakers3.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Men's Athletic Jogger Pants",
+    "brand": "ActiveLife",
+    "price": 32.50,
+    "description": "Athletic jogger pants for a sporty and comfortable style.",
+    "category": "Jeans",
+    "image_URL": "https://example.com/joggerpants1.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Women's Floral Print Summer Dress",
+    "brand": "SummerBloom",
+    "price": 34.99,
+    "description": "Light and airy summer dress with a beautiful floral print.",
+    "category": "Dresses",
+    "image_URL": "https://example.com/dress5.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Men's Trifold Leather Wallet",
+    "brand": "ClassicLeather",
+    "price": 18.99,
+    "description": "Traditional trifold leather wallet with ample card slots.",
+    "category": "Wallets",
+    "image_URL": "https://example.com/wallet6.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Women's Casual V-Neck T-Shirt",
+    "brand": "RelaxedStyle",
+    "price": 12.99,
+    "description": "Casual V-neck t-shirt for a relaxed and easygoing look.",
+    "category": "T-Shirts",
+    "image_URL": "https://example.com/tshirt5.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Men's Leather Flip-Flops",
+    "brand": "BeachReady",
+    "price": 17.50,
+    "description": "Durable and stylish leather flip-flops for beach days.",
+    "category": "Footwear",
+    "image_URL": "https://example.com/flipflops1.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Men's Slim Fit White Jeans",
+    "brand": "CleanStyle",
+    "price": 45.00,
+    "description": "Versatile slim fit white jeans for a fresh and modern look.",
+    "category": "Jeans",
+    "image_URL": "https://example.com/jeans5.jpg"
+  }
+]
