@@ -13,7 +13,7 @@ const FooterLink = (props) => {
       ) : (
         <Link
           className="hover:text-blue-400 transition-all duration-[.2s] text-base max-sm:text-sm font-semibold capitalize"
-          to={props.link.url}
+          to={props.link.url} target="_blank"
         >
           {props.link.title}
         </Link>
