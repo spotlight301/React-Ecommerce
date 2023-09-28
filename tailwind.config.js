@@ -5,11 +5,14 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: { 
-      dropShadow: {
-        footerShadow: [
-          '0 2px 2px rgb(253, 224, 71, .16)',
-        ],
+    extend: {
+      colors: {
+        primary: '#030014',
+        secondry: '#E5E7EBBB',
+        text: '#C084FC',
+        yellow: '#FaCC15',
+        white: '#E5E7EB',
+        red: '#EF4444'
       }
     },
   },

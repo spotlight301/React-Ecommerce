@@ -1,13 +1,11 @@
-// import ProductCard from "./components/ProductCard";
-// import products from './../assets/products.json';
-import HeaderCard from "./components/HeaderCard";
+import ProductsContainer from './components/ProductsContainer';
 
 const Products = () => {
   return (
     <>
-      <HeaderCard />
+      <ProductsContainer />
     </>
-  );
+  )
 }
 
 export default Products;

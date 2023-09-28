@@ -20,9 +20,9 @@ let contacts = [
 
 const Footer = () => {
   return (
-    <footer className="bg-[#113a82] text-white">
+    <footer className="bg-secondry/20 backdrop-blur-md text-white border-2 rounded-t-3xl  border-t-white">
       {/*======================= ROW =======================*/}
-      <div className="flex flex-wrap justify-around p-2 pb-5">
+      <div className="flex flex-wrap justify-around p-2 pb-5 capitalize text-white">
 
         {/*======================= COL =======================*/}
         <div className="flex flex-col">
@@ -57,8 +57,8 @@ const Footer = () => {
 
       {/*======================== Under Text ========================*/}
       <div className="text-center border-t-2 border-t-white">
-        <h3 className="font-black p-3 text-[1.4rem] max-sm:text-[1rem] text-yellow-300 capitalize drop-shadow-footerShadow">
-          created by <span className="text-red-500">dragons</span> || all rights
+        <h3 className="font-black p-3 text-[1.4rem] max-sm:text-[1rem] text-red capitalize">
+          created by <span className="text-yellow">dragons</span> || all rights
           reserved
         </h3>
       </div>
