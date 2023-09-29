@@ -22,7 +22,7 @@
 
 ## **Firstday :** 
 
-1.  #### we make an meeting and we discuss whatbwe choose we start by social media and last we decide shopping -chart-clothes
+1. #### we make an meeting and we discuss whatbwe choose we start by social media and last we decide shopping -chart-clothes
 2. #### we analyze the websiye to small parts such : Nav , Hearer , Footer , cards ,Moving cards , card open New window has all details about product 
 3. #### we distribute tasks (#12task)  Note (whose did not come we distribute tasks for them randomly ) as follows : 
        
@@ -50,10 +50,7 @@
 - [sondos-saad](https://github.com/sondos-saad)
 
 
-#
-
-
-##**Second day** : 
+## **Second day** : 
 #### 1. we make a meeting in _Sep 26 , 2023 at 10:30 am_ to discusse the done tasks and start new tasks
 #### 2.    the leader recieve tasks after an review of  each  tasks  and order from rest developer to start theier tasks
 #### 3. some changes has been done as he found some tasks has to modeify and input some enhancement to code and the mession  of - [ZiadSaied321](https://github.com/ZiadSaied321) has  assigned the largest part  to  [AdhamMhran](https://github.com/AdhamMhran)
@@ -78,8 +75,8 @@
 - [yasmen310](https://github.com/yasmen310)
 - [MennaSoliman2](https://github.com/MennaSoliman2)
 
-# 
-##**Third day** : 
+
+## **Third day** : 
 #### .1 we make meeting at _Sep 27 , 2023 at 10:30 am_ to check the progress of project 
 #### .2 the leader recieve new tasks and discuss with developer who do it 
 #### .3 the leader recieve the old tasks thst have to be modified from last session
@@ -103,10 +100,7 @@
  - [rahma-mohamed](https://github.com/rahma-mohamed)
 
 
-#
-
-
-##**Last day**
+## **Last day**
 #### 1. we make meeting in _Ser 28, 2023 at 10:30 am_to ensure that all has been done
 #### 2. we discuss last tasks that has been done and such a a problem solving seesion 
 #### 3. the leader check if tasks has to enhance and add last touches to code 
@@ -116,7 +110,7 @@
 - >  Header Card #2  [sondos-saad](https://github.com/sondos-saad)  **dedadline : Sep 25 , 2023** status :  `Done`
 - > Moving of Header Cards #3  [AdhamMhran](https://github.com/AdhamMhran) **dedadline : Sep 27 , 2023** status :  `Done`
 - > Product Card #4 [rahma-mohamed](https://github.com/rahma-mohamed)  **dedadline : Sep 25 , 2023** status : ` Done`
--  > Search Algorism and Create Fake data#5 [ZiadSaied321](https://github.com/ZiadSaied321) **dedadline : Sep 25 , 2023** status : `Done`
+- > Search Algorism and Create Fake data#5 [ZiadSaied321](https://github.com/ZiadSaied321) **dedadline : Sep 25 , 2023** status : `Done`
 - > Basket Page #6 [yasmen310](https://github.com/yasmen310) **dedadline : Sep 27 , 2023** status :  `Done`
 - > Footer #7  [empeo](https://github.com/empeo) **dedadline : Sep 25 , 2023** status :  `Done`
 - > Container #8 [moamed018](https://github.com/moamed018) **dedadline : Sep 26 , 2023** status :  `Done`
@@ -129,9 +123,9 @@
 #### 6. the attendance as follow : 
 - [DarkCode662432](https://github.com/DarkCode662432) 
 - [AdhamMhran](https://github.com/AdhamMhran)
- - [AhmedhusseinENG](https://github.com/AhmedhusseinENG)
- - [yasmen310](https://github.com/yasmen310)
- - [MennaSoliman2](https://github.com/MennaSoliman2)
+- [AhmedhusseinENG](https://github.com/AhmedhusseinENG)
+- [yasmen310](https://github.com/yasmen310)
+- [MennaSoliman2](https://github.com/MennaSoliman2)
 
 
 The Documentation of React-Project (version 1.0)
