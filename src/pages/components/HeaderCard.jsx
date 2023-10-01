@@ -1,10 +1,13 @@
-const HeaderCard = () => {
+const HeaderCard = (props) => {
+  const product = props.product;
   return (
-    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 row-span-4 col-span-1 cursor-pointer rounded-3xl text-white relative overflow-hidden">
-      <div className="bg-black z-10 w-full h-full absolute top-0 left-0 opacity-0 duration-1000   hover:opacity-70 p-2">
-        <h3 className="text-center absolute top-5 left-20">Title</h3>
-        <p className="text-center absolute top-10 ">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing bg-black z-10 w-full h-full absolute top-0 left-0 opacity-0 duration-1000   hover:opacity-70s and visual mockups.</p>
+    <div className={`group hover:-skew-x-1 hover:-skew-y-3 transition-all cursor-pointer rounded-xl text-white relative overflow-hidden w-[calc(50%-10rem)] mt-[4rem] aspect-square ${props.className} border-4 border-white`}>
+      <img src={product.image_URL} className="min-h-full min-w-full" />
+      <div className="bg-secondry/20 backdrop-blur z-10 w-full h-full justify-center items-center flex absolute text-center top-0 left-0 opacity-0 duration-1000  hover:opacity-100 p-5" onClick={() => props.detailsHandel(product)}>
+        <h3 className="text-center text-4xl font-semibold mb-12 text-text">{product.name}</h3>
+        {/* Light Effect */}
       </div>
+      <div className="absolute w-[400%] h-[150px] blur-xl bg-white/40 -left-[140%] top-[140%] group-hover:left-[0%] group-hover:top-[0%] rotate-45 z-[0] transition-all"></div>
     </div>
   );
 }

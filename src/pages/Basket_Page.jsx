@@ -1,86 +1,86 @@
+import { useState, useEffect } from "react";
 import CartCard from "./components/CartCard";
 
-let data = [
-  {
-    "id": 30,
-    "name": "Men's Slim Fit Dark Wash Jeans",
-    "brand": "FashionHub",
-    "price": 49.99,
-    "description": "Modern slim fit jeans in a dark wash for a sleek look.",
-    "category": "Jeans",
-    "image_URL": "./demo.jpg"
-  },
-  {
-    "id": 31,
-    "name": "Women's Ruffled Floral Maxi Dress",
-    "brand": "FloralGlam",
-    "price": 42.00,
-    "description": "Elegant maxi dress with floral patterns and ruffled details.",
-    "category": "Dresses",
-    "image_URL": "./demo.jpg"
-  },
-  {
-    "id": 32,
-    "name": "Leather Cardholder Wallet",
-    "brand": "LeatherCraft",
-    "price": 15.99,
-    "description": "Compact leather cardholder wallet with a sleek design.",
-    "category": "Wallets",
-    "image_URL": "./demo.jpg"
-  },
-  {
-    "id": 33,
-    "name": "Men's Graphic Print T-Shirt",
-    "brand": "TrendyPrints",
-    "price": 18.00,
-    "description": "Casual t-shirt with a trendy graphic print design.",
-    "category": "T-Shirts",
-    "image_URL": "./demo.jpg"
-  },
-  {
-    "id": 34,
-    "name": "Women's Classic Ballet Flats",
-    "brand": "BalletBeauty",
-    "price": 29.99,
-    "description": "Timeless ballet flats for a comfortable and chic look.",
-    "category": "Footwear",
-    "image_URL": "./demo.jpg"
-  },
-  {
-    "id": 35,
-    "name": "Men's Straight Leg Black Jeans",
-    "brand": "UrbanStyle",
-    "price": 55.00,
-    "description": "Classic straight leg jeans in a versatile black color.",
-    "category": "Jeans",
-    "image_URL": "./demo.jpg"
-  },
-  {
-    "id": 36,
-    "name": "Women's Elegant Cocktail Dress",
-    "brand": "CocktailCouture",
-    "price": 69.99,
-    "description": "Stunning cocktail dress for a glamorous night out.",
-    "category": "Dresses",
-    "image_URL": "./demo.jpg"
-  },
-  {
-    "id": 37,
-    "name": "Minimalist Slim Bifold Wallet",
-    "brand": "SleekEssentials",
-    "price": 22.50,
-    "description": "Minimalist bifold wallet with a slim profile for everyday use.",
-    "category": "Wallets",
-    "image_URL": "./demo.jpg"
-  }
-]
 const BasketPage = () => {
+  const [totalPrice, setTotalPrice] = useState(0);
+  const [data, setData] = useState([]);
+
+  // Calc totalPrice
+  const totalPriceHandel = (newTotalPrice) => {
+    setTotalPrice(newTotalPrice);
+  }
+
+  // Get data from local storage
+  const getProductData = () => {
+    if (localStorage.getItem("products") !== null) 
+      setData(JSON.parse(localStorage.getItem("products")));
+  }
+
+  // Send data to local storage
+  const setProductData = (data) => {
+    localStorage.setItem("products", JSON.stringify(data));
+  }
+
+  // Plus or minus product num in cart
+  const handelProductData = (productID, newNumber, operation) => {
+    var tempData = data;
+    for (let index = 0; index < tempData.length; index++) {
+      var product = tempData[index];
+      if (productID === product.id) {
+        
+        // Update localStorage for the salesNum
+        var salesNum = Number(localStorage.getItem("salesNum"));
+        // operation: 0 => minus || 1 => plus
+        if (operation) salesNum += 1; 
+        else salesNum -= 1;
+        localStorage.setItem("salesNum", salesNum);
+        window.dispatchEvent(new Event("storage"));
+        
+        product = {...product, number: newNumber}
+        tempData[index] = product;
+        if (product.number <= 0) tempData = tempData.filter((product) => product.id != productID);
+
+        break;
+      }
+    }
+    setProductData(tempData);
+    getProductData();
+  }
+
+  // Set total price
+  const getTotalPrice = () => {
+    let initialTotalPrice = 0;
+
+    data.forEach((product) => {
+      initialTotalPrice += product.price * product.number;
+    });
+    setTotalPrice(initialTotalPrice);
+  }
+
+  // Calculate initial total price
+  useEffect(() => {
+    getTotalPrice();
+  }, [data]);
+
+  // Display data
+  useEffect(() => {
+    getProductData();
+  }, []);
+
+  
   return (
-    <div className="flex flex-col gap-2">
-      {data.map((item, idx)=> (
-        <CartCard data={item} key={idx}/>        
-      ))}
-    </div>
+    <section className="mt-[5rem] w-full overflow-hidden">
+      <div className="flex flex-col gap-2 mt-5 px-[8rem] max-Clg:px-[4rem] max-Cxm:px-4 max-Cmd:items-center">
+        {data.map((item, idx) => (
+          <CartCard data={item} key={idx} totalPriceHandel={totalPriceHandel} totalPrice={totalPrice} handelProductData={handelProductData} />
+        )
+        )}
+      </div>
+      <div className="py-4 px-3  bg-secondry/20 backdrop-blur-md rounded-md mx-auto my-8 text-2xl font-bold w-fit capitalize tracking-wide cursor-pointer hover:scale-105 hover:bg-secondry/40 transition-all hover:shadow-2xl">
+        <span className="text-text">total: </span>
+        <span className="text-white">{Math.round(totalPrice)}<span className="text-sm text-secondry">$</span></span>
+      </div>
+    </section>
   );
 }
 

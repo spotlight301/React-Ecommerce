@@ -13,6 +13,14 @@ export default {
         yellow: '#FaCC15',
         white: '#E5E7EB',
         red: '#EF4444'
+      },
+      screens: {
+        Cxl: '1112px',
+        Clg: '964px',
+        Cxm: '787px',
+        Cmd: '562px',
+        Csm: '429px',
+        Cxs: '346px',
       }
     },
   },

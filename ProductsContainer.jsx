@@ -15,13 +15,12 @@ function filterData(data, filterTxt) {
 // =======================================================================
 
 
-const ProductsContainer = (props) => {
+const ProductsContainer = () => {
   const [activeCategory, setactiveCategory] = useState("All");
   const [displaySearchBtn, setDisplaySearchBtn] = useState(false);
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
 
-  // Handel active category
   const categoryHandler = (cat) => {
     setactiveCategory(cat);
   };
@@ -37,74 +36,21 @@ const ProductsContainer = (props) => {
     }
   }, [activeCategory, search]);
 
-  // Display search input
+
   const displaySearchBtnHandler = () => {
     setDisplaySearchBtn(!displaySearchBtn);
   };
 
   // Array of categoris 
-  const categories = [
-    "All",
-    "Jeans",
-    "Dresses",
-    "Wallets",
-    "T-Shirts",
-    "Footwear",
-    "Accessories",
-    "Jackets",
-    "Hoodies",
-    "Sweaters"
-  ]
-
-
-  // Need to fix, hidden scroll for cat
-  // useEffect(() => {
-  //   const container = document.getElementById("catContainer");
-  //   let isDragging = false;
-  //   let startX;
-
-  //   container.addEventListener('mousedown', (e) => {
-  //     isDragging = true;
-  //     startX = e.pageX - container.offsetLeft;
-  //   });
-
-  //   container.addEventListener('mouseup', () => {
-  //     isDragging = false;
-  //   });
-
-  //   window.addEventListener('mousemove', (e) => {
-  //     if (!isDragging) return;
-  //     const scrollX = e.pageX - container.offsetLeft - startX;
-  //     container.scrollLeft += scrollX;
-  //   });
-
-
-  //   return () => {
-  //     container.addEventListener('mousedown', (e) => {
-  //       isDragging = true;
-  //       startX = e.pageX - container.offsetLeft;
-  //     });
-
-  //     container.addEventListener('mouseup', () => {
-  //       isDragging = false;
-  //     });
-
-  //     window.addEventListener('mousemove', (e) => {
-  //       if (!isDragging) return;
-  //       const scrollX = e.pageX - container.offsetLeft - startX;
-  //       container.scrollLeft += scrollX;
-  //     });
-  //   };
-  // }, []);
-
+  const categories = ["All", "Jeans", "Dresses", "Wallets", "T-Shirts", "Footwear", "Accessories","Jackets","Hoodies","Sweaters"]
 
   return (
-    <div className="container mx-auto my-7 px-3 flex flex-col items-start" id="products">
+    <div className="container mx-auto my-7">
 
       {/*===================================== Categories =====================================*/}
-      <div id="catContainer" className="flex items-center justify-start gap-2 mb-4 max-w-full overflow-y-hidden overflow-x-scroll pb-2">
+      <div className="flex items-center gap-2 mb-4">
         <button
-          className={`w-9 aspect-square text-white flex justify-center items-center rounded-full max-Csm:w-7 transition-all duration-200 flex-none max-Csm:text-sm ${displaySearchBtn
+          className={`w-9 h-9 text-white flex justify-center items-center rounded-full  transition-all duration-200 ${displaySearchBtn
             ? "bg-red"
             : "bg-secondry/60 hover:bg-secondry"
             }`}
@@ -130,7 +76,7 @@ const ProductsContainer = (props) => {
         </button>
         <span className="text-white">|</span>
         <div className="flex gap-4 text-lg ">
-          {categories.map((category, idx) => (<Category name={category} handler={() => { categoryHandler(category); }} activeCategory={activeCategory} key={idx} className="flex-none" />))}
+          {categories.map((category, idx) => (<Category name={category} handler={() => { categoryHandler(category); }} activeCategory={activeCategory} key={idx} />))}
         </div>
       </div>
       {/*======================================================================================*/}
@@ -157,7 +103,6 @@ const ProductsContainer = (props) => {
               <ProductCard
                 key={product.id}
                 product={product}
-                detailsHandel={props.detailsHandel}
               />
             );
           })}

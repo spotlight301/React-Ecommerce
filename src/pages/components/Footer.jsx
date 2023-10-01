@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <footer className="bg-secondry/20 backdrop-blur-md text-white border-2 rounded-t-3xl  border-t-white">
       {/*======================= ROW =======================*/}
-      <div className="flex flex-wrap justify-around p-2 pb-5 capitalize text-white">
+      <div className="flex flex-wrap justify-around p-2 pb-5 capitalize text-white gap-x-2">
 
         {/*======================= COL =======================*/}
         <div className="flex flex-col">

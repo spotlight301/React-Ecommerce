@@ -4,4 +4,16 @@
 
 * {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  background: transparent;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E5E7EBBB;
+  border-radius: 6px;
 }
