@@ -155,5 +155,13 @@ The project is near completion, as we have received all of the last tasks.
 - [yasmen310](https://github.com/yasmen310)
 - [MennaSoliman2](https://github.com/MennaSoliman2)
 
+## Testing for responsive
+1. Max screen `1440px`
+2. Special screen `1112px` in tailwind.config called `Cxl`
+2. Special screen `964px` in tailwind.config called `Clg`
+3. Special screen `787px` in tailwind.config called `Cxm`
+4. Special screen `562px` in tailwind.config called `Cmd`
+5. Special screen `429px` in tailwind.config called `Csm`
+6. Special screen `346px` in tailwind.config called `Cxs`
 
 The Documentation of React-Project (version 1.0)
